@@ -18,5 +18,5 @@ spec:
       - name: nginx
         image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
         ports:
-        - containerPort: 8080
+        - containerPort: 80
           name: http
